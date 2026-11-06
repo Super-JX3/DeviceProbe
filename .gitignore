@@ -1,0 +1,26 @@
+# Build products and private signing material
+/build/
+*.apk
+*.idsig
+*.aab
+*.dex
+*.class
+*.jar
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Local toolchains, credentials, IDE/OS state and user reports
+/tools/
+/local.properties
+.env
+.env.*
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+/DeviceProbe-report*.txt
+/DeviceProbe-report*.json
